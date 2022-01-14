@@ -189,12 +189,13 @@ function writeExcel(data) {
   var buffer = xlsx.build(data);
 
   // 写入文件
-  fs.writeFile(LOCALE_FILE, buffer, function(err) {
+  let fileName = `${(new Date()).getTime()}.xlsx`
+  fs.writeFile(fileName, buffer, function(err) {
     if (err) {
         console.log("Write failed: " + err);
         return;
     }
 
-    console.log("Write completed.");
+    console.log("Write completed. New file is " + fileName);
   });
 }
