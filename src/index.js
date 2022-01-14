@@ -15,7 +15,7 @@ const regx = /[\u4E00-\u9FA5]/
 
 // const dirPath = process.argv[2]
 // 是否繁体转简体，默认0：简体转繁体
-const transType = process.argv[2] || 0
+// const transType = process.argv[2] || 0
 
 // 不处理的环境路径
 const exclude = ['node_modules', '.history']
