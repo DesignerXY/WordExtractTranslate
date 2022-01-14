@@ -1,0 +1,14 @@
+{
+  "name": "WordExtractTranslate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "node-xlsx": "^0.15.0"
+  }
+}
