@@ -23,7 +23,7 @@ const exclude = ['dist', 'src']
 const types = ['js', 'vue', 'html']
 
 # 替换目标文件夹下指定文件类型的简体中文
-yarn start xxx(文件夹绝对路径|必填) 1(是否繁=>简|选填|默认: 简=>繁)
+yarn start 1(是否繁=>简|选填|默认: 0简=>繁)
 ```
 
 ## Locale Excel
